@@ -92,7 +92,7 @@ class NTFS ():
 class MFT ():
 	def __init__ (self, offset, mft):
 		self.offset = offset
-		self.mft	= mft
+		self.mft    = mft
 
 		# MFT Entry Header
 		self.sFileSignature	= unpack ('<I', mft[0x00:0x04])[0]
