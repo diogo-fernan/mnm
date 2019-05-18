@@ -5,3 +5,7 @@
 # Usage
 
 *MNM* implements three classes that accordingly unpack the binary data of the MBR, NTFS and MFT records. The raw disk reads are sourced from the first physical drive available, usually named `\\.\PHYSICALDRIVE0` in the Windows NT namespace nomenclature. The drive is specified in the `_DRIVE` variable.
+
+# Author
+
+[@dfernan__](https://twitter.com/dfernan__)
